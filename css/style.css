@@ -2,6 +2,7 @@
 .body-color {
   background-color: #f2f2f2;
   color: #333;
+  font-family: "Lato";
 }
 
 .header {
@@ -11,7 +12,7 @@
   background-color:#fff;
   width: 100%;
   padding: 15px 0;
-  z-index: 20;
+  z-index: 1000;
 }
 
 .header-inner {
@@ -35,13 +36,17 @@
 
 .title {
   width: 100%;
-  padding-top: 318px;
+  padding-top: 250px;
   padding-bottom: 250px;
 }
 
 .inner {
   margin: 0 auto;
   max-width: 1100px;
+}
+
+.title-padding {
+  padding-top: 68px;
 }
 
 .bolt-theme {
@@ -85,7 +90,7 @@
   font-size: 20px;
   color: #fff;
   text-align: center;
-  width: 750px;
+  width: 680px;
 }
 
 .article {
@@ -100,7 +105,7 @@
   font-family: "Raleway";
 }
 
-.article-content {
+.article-contents {
   margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
@@ -108,10 +113,13 @@
 }
 
 .article__img {
-  margin: 80px 0 0 100px;
   transition: all 0.3s;
   opacity: 0.7;
   z-index: 1;
+}
+
+.article-content {
+  margin: 80px 0 0 100px;
 }
 
 .article__img:hover {
@@ -119,15 +127,15 @@
   opacity: 1;
 }
 
-.article__img:nth-child(n):nth-child(-n+3) {
+.article-content:nth-child(n):nth-child(-n+3) {
   margin-top: 0;
 }
 
-.article__img:first-child {
+.article-content:first-child {
   margin-left: 0;
 }
 
-.article__img:nth-child(4n) {
+.article-content:nth-child(4n) {
   margin-left: 0;
 }
 
@@ -142,6 +150,7 @@
   width: 580px;
   text-align: center;
   font-size: 20px;
+  font-family: "Lato";
 }
 
 .email-button {
@@ -184,7 +193,6 @@
 .img__word {
   margin-top: 10px;
   font-size: 16px;
-  font-family: "Lato";
 }
 
 .section__img__box {
