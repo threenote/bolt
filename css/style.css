@@ -11,7 +11,7 @@
   background-color:#fff;
   width: 100%;
   padding: 15px 0;
-  z-index: 2;
+  z-index: 20;
 }
 
 .header-inner {
@@ -35,8 +35,7 @@
 
 .title {
   width: 100%;
-  margin-top: 68px;
-  padding-top: 250px;
+  padding-top: 318px;
   padding-bottom: 250px;
 }
 
@@ -50,6 +49,7 @@
   font-weight: 700;
   color: #74cfae;
   text-align: center;
+  font-family: "Raleway";
 }
 
 .free-bootstrap {
@@ -68,7 +68,7 @@
 
 .section__inner {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-around;
 }
 
 .what-we {
@@ -96,19 +96,19 @@
 
 .our-latest {
   font-size: 24px;
-  margin-bottom: 40px;
   text-align: center;
   font-family: "Raleway";
 }
 
 .article-content {
+  margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .article__img {
-  margin: 0 100px 80px 0;
+  margin: 80px 0 0 100px;
   transition: all 0.3s;
   opacity: 0.7;
   z-index: 1;
@@ -119,18 +119,26 @@
   opacity: 1;
 }
 
-.article__img:nth-child(3n) {
-  margin-right: 0;
+.article__img:nth-child(n):nth-child(-n+3) {
+  margin-top: 0;
+}
+
+.article__img:first-child {
+  margin-left: 0;
+}
+
+.article__img:nth-child(4n) {
+  margin-left: 0;
 }
 
 .article-box {
   display: flex;
   align-items: flex-start;
   justify-content: center;
+  margin-top: 90px;
 }
 
 .article-box__text {
-  margin: 10px 90px 0 0;
   width: 580px;
   text-align: center;
   font-size: 20px;
@@ -144,6 +152,7 @@
   box-sizing: border-box;
   transition: all 0.3s;
   text-decoration: none;
+  margin-left: 90px;
 }
 
 .email-button:hover {
@@ -169,7 +178,7 @@
 }
 
 .section__img:first-child {
-  margin-left: 45px;
+  margin-left: 0;
 }
 
 .img__word {
