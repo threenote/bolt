@@ -85,6 +85,11 @@
   margin: 0 auto;
   font-family: "Raleway";
   text-align: center;
+  width: 680px;
+}
+
+.section__text {
+  box-sizing: border-box;
 }
 
 .section__content__text {
@@ -92,6 +97,7 @@
   font-size: 20px;
   color: #fff;
   text-align: center;
+  width: 680px;
 }
 
 /* --article-- */
@@ -181,11 +187,13 @@
 .our-skills {
   color: #f2f2f2;
   text-align: center;
+  width: 680px;
 }
 
 .section__img__box li {
   margin-left: 180px;
   text-align: center;
+  width: 680px;
 }
 
 .section__img__box li:first-child {
