@@ -325,6 +325,10 @@
   }
 
   /* ---header--- */
+.title-padding {
+  padding-top: 62px;
+}
+
   .menu-btn {
     display: block !important;
     position: fixed;
